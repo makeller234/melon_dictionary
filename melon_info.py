@@ -20,7 +20,8 @@
 
 from melons import melon_dict
 
-for melon, info in melon_dict.items():
-    print(f'{melon}')
-    for more_info in info.items():
-        print(f'\t{more_info}')
+def print_melons():
+    for melon, info in melon_dict.items():
+        print(f'{melon}')
+        for more_info in info.items():
+            print(f'\t{more_info}')
